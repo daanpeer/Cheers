@@ -1,0 +1,462 @@
+[
+  {
+    "locale": "af",
+    "country": "Afrikaans",
+    "string": "Cheers"
+  },
+  {
+    "locale": "ar",
+    "country": "Arabic",
+    "string": "هتاف"
+  },
+  {
+    "locale": "az",
+    "country": "Azerbaijani",
+    "string": "alqış"
+  },
+  {
+    "locale": "be",
+    "country": "Belarusian",
+    "string": "ура"
+  },
+  {
+    "locale": "bg",
+    "country": "Bulgarian",
+    "string": "Наздраве"
+  },
+  {
+    "locale": "bn",
+    "country": "Bengali",
+    "string": "চিয়ার্স"
+  },
+  {
+    "locale": "bs",
+    "country": "Bosnian",
+    "string": "Živjeli"
+  },
+  {
+    "locale": "ca",
+    "country": "Catalan",
+    "string": "¡Salut"
+  },
+  {
+    "locale": "ceb",
+    "country": "Cebuano",
+    "string": "cheers"
+  },
+  {
+    "locale": "cs",
+    "country": "Czech",
+    "string": "Na zdraví"
+  },
+  {
+    "locale": "cy",
+    "country": "Welsh",
+    "string": "Lloniannau"
+  },
+  {
+    "locale": "da",
+    "country": "Danish",
+    "string": "Skål"
+  },
+  {
+    "locale": "de",
+    "country": "German",
+    "string": "Prost"
+  },
+  {
+    "locale": "el",
+    "country": "Greek",
+    "string": "Εβίβα"
+  },
+  {
+    "locale": "en",
+    "country": "English",
+    "string": "Cheers"
+  },
+  {
+    "locale": "eo",
+    "country": "Esperanto",
+    "string": "Cheers"
+  },
+  {
+    "locale": "es",
+    "country": "Spanish",
+    "string": "Aclamaciones"
+  },
+  {
+    "locale": "et",
+    "country": "Estonian",
+    "string": "Terviseks"
+  },
+  {
+    "locale": "eu",
+    "country": "Basque",
+    "string": "Cheers"
+  },
+  {
+    "locale": "fa",
+    "country": "Persian",
+    "string": "به سلامتی"
+  },
+  {
+    "locale": "fi",
+    "country": "Finnish",
+    "string": "Kippis"
+  },
+  {
+    "locale": "fr",
+    "country": "French",
+    "string": "À votre santé"
+  },
+  {
+    "locale": "ga",
+    "country": "Irish",
+    "string": "Cheers"
+  },
+  {
+    "locale": "gl",
+    "country": "Galician",
+    "string": "saúde"
+  },
+  {
+    "locale": "gu",
+    "country": "Gujarati",
+    "string": "ટીમે"
+  },
+  {
+    "locale": "ha",
+    "country": "Hausa",
+    "string": "bisimillah"
+  },
+  {
+    "locale": "hi",
+    "country": "Hindi",
+    "string": "चियर्स"
+  },
+  {
+    "locale": "hmn",
+    "country": "Hmong",
+    "string": "Cheers"
+  },
+  {
+    "locale": "hr",
+    "country": "Croatian",
+    "string": "Živjeli"
+  },
+  {
+    "locale": "ht",
+    "country": "Haitian Creole",
+    "string": "cheers"
+  },
+  {
+    "locale": "hu",
+    "country": "Hungarian",
+    "string": "Egészségére"
+  },
+  {
+    "locale": "hy",
+    "country": "Armenian",
+    "string": "Կենացը"
+  },
+  {
+    "locale": "id",
+    "country": "Indonesian",
+    "string": "Tepuk tangan"
+  },
+  {
+    "locale": "ig",
+    "country": "Igbo",
+    "string": "Cheers"
+  },
+  {
+    "locale": "is",
+    "country": "Icelandic",
+    "string": "Skál"
+  },
+  {
+    "locale": "it",
+    "country": "Italian",
+    "string": "Saluti"
+  },
+  {
+    "locale": "iw",
+    "country": "Hebrew",
+    "string": "חופשי על הבר"
+  },
+  {
+    "locale": "ja",
+    "country": "Japanese",
+    "string": "乾杯"
+  },
+  {
+    "locale": "jw",
+    "country": "Javanese",
+    "string": "Cheers"
+  },
+  {
+    "locale": "ka",
+    "country": "Georgian",
+    "string": "გაუმარჯოს"
+  },
+  {
+    "locale": "kk",
+    "country": "Kazakh",
+    "string": "Ура"
+  },
+  {
+    "locale": "km",
+    "country": "Khmer",
+    "string": "លើកទឹកចិត្ត"
+  },
+  {
+    "locale": "kn",
+    "country": "Kannada",
+    "string": "ಚೀರ್ಸ್"
+  },
+  {
+    "locale": "ko",
+    "country": "Korean",
+    "string": "건배"
+  },
+  {
+    "locale": "la",
+    "country": "Latin",
+    "string": "Cheers"
+  },
+  {
+    "locale": "lo",
+    "country": "Lao",
+    "string": "Cheers"
+  },
+  {
+    "locale": "lt",
+    "country": "Lithuanian",
+    "string": "Į sveikatą"
+  },
+  {
+    "locale": "lv",
+    "country": "Latvian",
+    "string": "Priekā"
+  },
+  {
+    "locale": "mg",
+    "country": "Malagasy",
+    "string": "Cheers"
+  },
+  {
+    "locale": "mi",
+    "country": "Maori",
+    "string": "whakahari"
+  },
+  {
+    "locale": "mk",
+    "country": "Macedonian",
+    "string": "Cheers"
+  },
+  {
+    "locale": "ml",
+    "country": "Malayalam",
+    "string": "ചിയേഴ്സ്"
+  },
+  {
+    "locale": "mn",
+    "country": "Mongolian",
+    "string": "Cheers"
+  },
+  {
+    "locale": "mr",
+    "country": "Marathi",
+    "string": "आणि आपण ते करतोय"
+  },
+  {
+    "locale": "ms",
+    "country": "Malay",
+    "string": "Cheers"
+  },
+  {
+    "locale": "mt",
+    "country": "Maltese",
+    "string": "Evviva"
+  },
+  {
+    "locale": "my",
+    "country": "Myanmar (Burmese)",
+    "string": "သောင်းသောင်းဖျဖျ"
+  },
+  {
+    "locale": "ne",
+    "country": "Nepali",
+    "string": "चियर्स"
+  },
+  {
+    "locale": "nl",
+    "country": "Dutch",
+    "string": "Proost"
+  },
+  {
+    "locale": "no",
+    "country": "Norwegian",
+    "string": "Skål"
+  },
+  {
+    "locale": "ny",
+    "country": "Chichewa",
+    "string": "Malawi"
+  },
+  {
+    "locale": "pa",
+    "country": "Punjabi",
+    "string": "ਜੈਕਾਰਾ"
+  },
+  {
+    "locale": "pl",
+    "country": "Polish",
+    "string": "Twoje zdrowie"
+  },
+  {
+    "locale": "pt",
+    "country": "Portuguese",
+    "string": "Saúde"
+  },
+  {
+    "locale": "ro",
+    "country": "Romanian",
+    "string": "Noroc"
+  },
+  {
+    "locale": "ru",
+    "country": "Russian",
+    "string": "ура"
+  },
+  {
+    "locale": "si",
+    "country": "Sinhala",
+    "string": "පලවෙනි හේතුව"
+  },
+  {
+    "locale": "sk",
+    "country": "Slovak",
+    "string": "na zdravie"
+  },
+  {
+    "locale": "sl",
+    "country": "Slovenian",
+    "string": "Na zdravje"
+  },
+  {
+    "locale": "so",
+    "country": "Somali",
+    "string": "Shifo"
+  },
+  {
+    "locale": "sq",
+    "country": "Albanian",
+    "string": "Gëzuar"
+  },
+  {
+    "locale": "sr",
+    "country": "Serbian",
+    "string": "Живели"
+  },
+  {
+    "locale": "st",
+    "country": "Sesotho",
+    "string": "hlasimollang"
+  },
+  {
+    "locale": "su",
+    "country": "Sundanese",
+    "string": "Cheers"
+  },
+  {
+    "locale": "sv",
+    "country": "Swedish",
+    "string": "Skål"
+  },
+  {
+    "locale": "sw",
+    "country": "Swahili",
+    "string": "cheers"
+  },
+  {
+    "locale": "ta",
+    "country": "Tamil",
+    "string": "சியர்ஸ்"
+  },
+  {
+    "locale": "te",
+    "country": "Telugu",
+    "string": "చీర్స్"
+  },
+  {
+    "locale": "tg",
+    "country": "Tajik",
+    "string": "Барои Саломати!"
+  },
+  {
+    "locale": "th",
+    "country": "Thai",
+    "string": "ไชโย"
+  },
+  {
+    "locale": "tl",
+    "country": "Filipino",
+    "string": "Cheers"
+  },
+  {
+    "locale": "tr",
+    "country": "Turkish",
+    "string": "Şerefe"
+  },
+  {
+    "locale": "uk",
+    "country": "Ukrainian",
+    "string": "ура"
+  },
+  {
+    "locale": "ur",
+    "country": "Urdu",
+    "string": "چیرس"
+  },
+  {
+    "locale": "uz",
+    "country": "Uzbek",
+    "string": "Cheers"
+  },
+  {
+    "locale": "vi",
+    "country": "Vietnamese",
+    "string": "vô"
+  },
+  {
+    "locale": "yi",
+    "country": "Yiddish",
+    "string": "טשעערס"
+  },
+  {
+    "locale": "yo",
+    "country": "Yoruba",
+    "string": "mú inú"
+  },
+  {
+    "locale": "zh",
+    "country": "Chinese",
+    "string": "干杯"
+  },
+  {
+    "locale": "zh-CN",
+    "country": "Chinese (Simplified)",
+    "string": "干杯"
+  },
+  {
+    "locale": "zh-TW",
+    "country": "Chinese (Traditional)",
+    "string": "乾杯"
+  },
+  {
+    "locale": "zu",
+    "country": "Zulu",
+    "string": "cheers"
+  }
+]
