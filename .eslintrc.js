@@ -4,7 +4,8 @@ module.exports = {
     "rules": {
       "semi": [2, "never"],
       "arrow-body-style": [0, "as-needed"],
-      "strict": 0
+      "strict": 0,
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     },
 
     "parserOptions": {

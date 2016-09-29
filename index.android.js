@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import {
   AppRegistry,
   StyleSheet,
@@ -7,102 +8,103 @@ import {
   TouchableHighlight,
 } from 'react-native'
 
-import { MKButton, MKColor, MKIconToggle } from 'react-native-material-kit'
+import { MKButton } from 'react-native-material-kit'
 
-import cheersData from './cheers.json'
 import tts from 'react-native-android-speech'
 
+import cheersData from './cheers.json'
+
 const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
-		backgroundColor: '#F5FCFF',
-	},
-	title: {
-		fontSize: 20,
-		textAlign: 'center',
-		margin: 10,
-	},
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  title: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
 
-	cheer: {
-		fontSize: 40,
-		margin: 30
-	},
+  cheer: {
+    fontSize: 40,
+    margin: 30,
+  },
 
-	cheerButtonText: {
-		fontSize: 40,
-		color: 'white',
-	},
+  cheerButtonText: {
+    fontSize: 40,
+    color: 'white',
+  },
 
-	cheerButton: {
-		marginBottom: 20,
-	},
+  cheerButton: {
+    marginBottom: 20,
+  },
 
-	beer: {
-		fontSize: 90,
-	}
+  beer: {
+    fontSize: 90,
+  },
 })
+
+const CheerButton = MKButton.coloredButton()
+  .withTextStyle(styles.cheerButtonText)
+  .withStyle(styles.cheerButton)
+  .withText(' 🍻 LETS CHEER')
+  .withOnPress(this.cheer)
+  .build()
+
+const SayButton = MKButton.coloredButton()
+  .withText('HOW THE F* DO I SAY THIS!?')
+  .withOnPress(this.speak)
+  .build()
 
 class cheers extends Component {
 
-	constructor(props) {
-		super(props)
+  constructor(props) {
+    super(props)
 
-		this.state = {
-			cheer: undefined
-		}
+    this.state = {
+      cheer: undefined,
+    }
 
-		this.cheer = this.cheer.bind(this)
-		this.speak = this.speak.bind(this)
+    this.cheer = this.cheer.bind(this)
+    this.speak = this.speak.bind(this)
 
-		tts.getLocales().then( (locales) => {
-			this.supported = cheersData.filter( (cheer) => {
-				return locales.indexOf(cheer.locale) !== -1
-			})
-			this.selectCheer()
-		})
-	}
+    tts.getLocales().then((locales) => {
+      this.supported = cheersData.filter((cheer) => {
+        return locales.indexOf(cheer.locale) !== -1
+      })
+      this.selectCheer()
+    })
+  }
 
-	componentDidMount() {
-	}
+  componentDidMount() {
+  }
 
-	selectCheer() {
-		const cheer = this.supported[Math.floor(Math.random()*this.supported.length)]
-		this.setState({ cheer: cheer })
-	}
+  selectCheer() {
+    const cheer = this.supported[Math.floor(Math.random() * this.supported.length)]
+    this.setState({ cheer })
+  }
 
-	cheer() {
-		this.selectCheer()
-	}
+  cheer() {
+    this.selectCheer()
+  }
 
-	speak() {
-		tts.speak({
-			text: this.state.cheer.string,
-			forceStop: false ,
-			language: this.state.cheer.locale
-		})
-	}
+  speak() {
+    tts.speak({
+      text: this.state.cheer.string,
+      forceStop: false,
+      language: this.state.cheer.locale,
+    })
+  }
 
-	render() {
+  render() {
     // probably still fetching a cheer
-		if (this.state.cheer == undefined) {
-			return (<View />)
-		}
+    if (this.state.cheer === undefined) {
+      return (<View />)
+    }
 
-		const CheerButton = MKButton.coloredButton()
-      .withTextStyle(styles.cheerButtonText)
-      .withStyle(styles.cheerButton)
-      .withText(' 🍻 LETS CHEER')
-      .withOnPress(this.cheer)
-      .build()
-
-		const SayButton = MKButton.coloredButton()
-      .withText('HOW THE F* DO I SAY THIS!?')
-      .withOnPress(this.speak)
-      .build()
-
-		return (
+    return (
       <View style={styles.container}>
 
         <TouchableHighlight onPress={this.cheer}>
@@ -124,7 +126,7 @@ class cheers extends Component {
 
       </View>
     )
-	}
+  }
 }
 
 AppRegistry.registerComponent('cheers', () => cheers)
